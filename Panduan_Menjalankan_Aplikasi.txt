@@ -1,0 +1,31 @@
+Panduan Menjalankan Aplikasi Toko Buku
+
+1. Persiapan
+- Pastikan Java Development Kit (JDK) sudah terinstall di komputer Anda.
+- Pastikan folder proyek berisi:
+  - Folder src dengan file-file sumber Java (.java)
+  - Folder lib yang berisi file sqlite-jdbc-3.42.0.0.jar
+  - File run.bat di root folder proyek
+
+2. Menjalankan Aplikasi
+- Buka Command Prompt (cmd) di Windows.
+- Arahkan ke folder proyek, misalnya:
+  cd C:\Users\user\Downloads\PBOUASTI
+- Jalankan perintah berikut untuk menjalankan aplikasi:
+  run.bat
+- Aplikasi akan dikompilasi dan dijalankan secara otomatis.
+- Jika ada error terkait driver JDBC, pastikan file sqlite-jdbc-3.42.0.0.jar ada di folder lib.
+
+3. Menggunakan Aplikasi
+- Setelah aplikasi terbuka, Anda akan melihat jendela GUI toko buku.
+- Gunakan form di bawah tabel untuk menambah, mengubah, atau menghapus data buku.
+- Gunakan tombol Tambah, Ubah, Hapus, dan Bersihkan sesuai kebutuhan.
+
+4. Menutup Aplikasi
+- Tutup jendela aplikasi untuk keluar.
+
+5. Catatan
+- Jika ingin menjalankan ulang aplikasi, cukup jalankan kembali run.bat.
+- Pastikan semua file dan folder tetap berada di struktur yang sama agar aplikasi berjalan lancar.
+
+Terima kasih telah menggunakan aplikasi ini.
